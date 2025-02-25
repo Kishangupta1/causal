@@ -1,0 +1,13 @@
+context_prompt = "prompts/context_llm.json"
+question_form_prompt = "prompts/expand_no_context_ques.json"
+question_sim = "prompts/merge_similar_question.json"
+question_sim_iter = "prompts/merge_question_iteratively.json"
+clustering_rows = "prompts/clustering_rows.json"
+get_topic = "prompts/get_topic.json"
+split_text = "prompts/split_text.json"
+# LLM_URL = "http://129.80.164.69:8888/" # vm5
+LLM_URL = "http://135.237.153.168:8888/" # A100, 80GB
+# LLM_URL = "http://129.80.129.149:8888/" #vm6
+# LLM_URL = "http://129.80.151.216:8888/"  # vm4
+llm_endpoint = "api/train/llm/rag/invoke"
+sent_sim_thres = 0.5

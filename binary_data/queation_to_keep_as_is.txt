@@ -1,0 +1,25 @@
+Country of Origin
+Age
+year
+Gender
+Marital status
+Skilled / unskilled?
+I get paid fairly for the work I do
+It is easy to take emergency leave
+I feel safe at my workplace
+I have realistic targets at work
+I can get care if I am sick or inured
+I get enough time to rest
+I always feel listened too
+It is easy to get a problem resolved
+I am treated with respect
+I have opportunities to get promoted and learn at work
+I feel appreciated at my workplace
+I am supported by my work to give my best
+Are you employed directly by the site you work on or do you work for through an agency/manpower provider? 
+Approximately how many hours would you have worked in a month to earn this?      
+Are you better off in Qatar or in your home country?
+Country of residence at time of recruitment.
+"Shift (What time is the worker scheduled to work?)"
+Site name (What site the worker works on?)
+How do you feel about your job?

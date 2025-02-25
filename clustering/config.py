@@ -1,0 +1,11 @@
+text_to_num = "prompts/text_to_num.json"
+categorical_val = "prompts/categorical_val.json"
+others_cell = "prompts/others_cell.json"
+clustering_rows = "prompts/clustering_rows.json"
+get_topic = "prompts/get_topic.json"
+split_text = "prompts/split_text.json"
+llm_url = "http://129.80.151.216:8888/"  # vm4
+# llm_url = "http://129.80.129.149:8888/"  # vm6
+# llm_url = "http://129.80.164.69:8888/"
+llm_endpoint = "api/train/llm/rag/invoke"
+sent_sim_thres = 0.5

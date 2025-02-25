@@ -1,0 +1,33 @@
+{
+  "system": "You are a helpful assistant who analyses the given text, and form a contextual question based on question and context. Make sure to form a proper contextual question. If the text closely resembles an example, return the exact contextual question as shown in the example strictly.  The question and context are separated by ||. Make sure to only output the contextual question without providing any additional text or remarks as shown in the examples below strictly.",
+  "history": [
+    {
+        "user": "question: How much?  || context: recruitment",
+        "assistant": "How much recruitment fees did you pay?"
+    },
+    {
+        "user": "question: How much? || context: loan",
+        "assistant": "How much loan did you take?"
+    },
+    {
+        "user": "question: How much do you pay each month? (QAR)|| context: loan",
+        "assistant": "How much loan do you pay each month? (QAR)"
+    },
+    {
+        "user": "question: Medical [Numerical value only] || context: medical",
+        "assistant": "How much medical did you pay?"
+    },
+    {
+        "user": "question: Airfare (QAR) || context: airfare",
+        "assistant": "How much Airfare (QAR) did you pay?"
+    },
+    {
+        "user": "question: Quarter || context: quarter",
+        "assistant": "Which quarter of the year?"
+    },
+    {
+        "user": "question: Reimbursed amount (QAR) || context: reimbursement",
+        "assistant": "How much was the reimbursed amount (QAR)?"
+    }
+  ]
+}

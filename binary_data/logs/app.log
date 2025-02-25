@@ -1,0 +1,756 @@
+[2025-02-12T14:12:01] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:12:22] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 91
+[2025-02-12T14:12:22] INFO [root.<module>:72] Parsing 2->Did you come here to support your family?->response: {0: [], 1: ['yes']}
+[2025-02-12T14:12:24] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:12:27] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T14:12:27] INFO [root.<module>:72] Parsing 3->Did you come here for better future?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T14:12:28] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:12:30] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T14:12:30] INFO [root.<module>:72] Parsing 4->Did you come here to give education to your children?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T14:12:31] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:12:33] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-12T14:12:33] INFO [root.<module>:72] Parsing 5->Did u pay recruitment fees?->response: {0: ['yes'], 1: ['no', 'unsure']}
+[2025-02-12T14:12:34] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:13:10] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 1488
+[2025-02-12T14:13:10] INFO [root.<module>:72] Parsing 6->Do you have to serve any loans?->response: {0: ['', 'no land mortgege', 'no, land mortagage\nqar 700\nfor coming qatar', 'no, loan from relatives for coming qatar', 'no', 'no loan', 'unsure', 'no, sold his shop for coming qatar'], 1: ['loan 5&', 'loan 3%', 'yes, 2954 \nbroker 5%\nqar 150', 'loan, for coming qatar, qar 3000 bank (5%) \nqar 300', 'borrowing money', 'yes, 3214 (3% interest)\nqar 200\nfor coming qatar', 'loan from relatives, 10%', 'yes,  2545 (3%)\nqar 100', 'loan, 5 %', 'yes, qar 9090 \ncoming qatar, qar 500 interest 5%', 'yes, qar 3000 bank (5%) \nqar 400', 'yes, 2857 (3%)\nqar 200\nfor coming qatar', 'yes, 4000 (5%)\nqar 300', 'loan, 10 %', 'yes, for coming here\nqar 2800\nqar 300', 'yes 2409 inerest 3%\nqar 100', 'yes coming , 7727', 'yes\nqar 2285 \nlender 10%\nfor coming qatar\nqar 300', 'yes, 3820, (4%) \nqar 250', 'yes, 3181', 'yes \nqr 11363\nqr 9900 from bank  interest 14% in ayear\nbrother qar 2363\nqar 850', 'yes, 2500 (3%)\nqar 100', 'loan from friend', 'yes, 3820 (3%)\nqar 250', 'loan from relatives', 'loan, 10 % interest', 'yes, 2590 (3%)\nqr 100', 'yes qr 6818, for coming here\n\ninstallment qr 378', 'yes, 2115 (3%)\nqar 150', 'yes, 2000 \n5%', 'yes', 'loan, 5%', 'yes, 3461 (3%)\nqar 120', 'yes, 2142 (3%)\nqar 150\nfor coming qatar', 'loan 10%', 'loan, double %', 'loan, 10%', 'yes, 19740, \nfrom ngo monthly 900\nfor coming qatar', 'loan 5 %', 'yes , 2720 (3%)\nqr 100']}
+[2025-02-12T14:13:11] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:13:27] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 966
+[2025-02-12T14:13:27] INFO [root.<module>:72] Parsing 7->Would you recommend this job to friends or family? Why?->response: {0: ['no, hard work, hot', 'no, want them to be experienced like him, hit, hard work', 'no, hard work', 'no, better future of sisters and brother', 'no for my job', 'no, hard work,', 'no, better future', 'no,hard work', 'no, working in hot weater', 'no (my job dirty)', 'no, salary not satisfactory', 'no, something better not laborer', 'no, need to educate', 'no, hard work inhot no value of spending too much money for coming here', 'no, hit, less salary than expectation', 'no, hard work if could do this at home can earn more money', 'no, too tough job', 'no, hard work inhot', 'no, risky work', 'no, less salary thank expectation', 'no', 'no, problem with food, less salary', 'no, need to educate them', 'no, something better', 'no, hard work less money', 'unsure'], 1: ['yes, ok for the job', 'yes but depending on offer', 'yes off course', 'yes at my village', 'yes', 'yes, my brother']}
+[2025-02-12T14:13:28] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:13:30] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T14:13:30] INFO [root.<module>:72] Parsing 9->Recommend? (edit)->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T14:13:31] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:13:35] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 249
+[2025-02-12T14:13:35] INFO [root.<module>:72] Parsing 13->2. What are you hoping to achieve through this work? Do you think it is possible?->response: {0: ['not possible', 'not at all', 'no', 'no, my children high education'], 1: ['possible', 'my brother is studying engeenring.', 'yes', 'my children are studying engeenering']}
+[2025-02-12T14:13:37] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:13:38] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T14:13:38] INFO [root.<module>:72] Parsing 14->3a. Do you feel it was worth moving here for work? ->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T14:13:39] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:13:41] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T14:13:41] INFO [root.<module>:72] Parsing 15->4a. Is your household income sufficient to meet your family s needs? ->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T14:13:42] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:13:44] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 91
+[2025-02-12T14:13:44] INFO [root.<module>:72] Parsing 16->5a. Do you send money home each month? ->response: {0: [], 1: ['yes']}
+[2025-02-12T14:13:45] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:13:46] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 90
+[2025-02-12T14:13:46] INFO [root.<module>:72] Parsing 29->Are you a local worker?->response: {0: ['no'], 1: []}
+[2025-02-12T14:13:48] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:13:50] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-12T14:13:50] INFO [root.<module>:72] Parsing 31->Are you satisfied with your job?->response: {0: ['no', 'unsure'], 1: ['yes']}
+[2025-02-12T14:13:51] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:13:53] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-12T14:13:53] INFO [root.<module>:72] Parsing 32->Would you recommend this factory as a good place to work to a friend?->response: {0: ['no', 'unsure'], 1: ['yes']}
+[2025-02-12T14:13:54] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:13:57] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 141
+[2025-02-12T14:13:57] INFO [root.<module>:72] Parsing 33->Would you like your children to do your job when they get older? ->response: {0: ['no', 'unsure'], 1: ['no,i wish he will do a good job.', 'yes']}
+[2025-02-12T14:13:58] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:14:00] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 108
+[2025-02-12T14:14:00] INFO [root.<module>:72] Parsing 35->Is the money you earn from this job enough to cover your basic needs such as rent, bills, education etc.?->response: {0: ['no', 'sometimes'], 1: ['yes']}
+[2025-02-12T14:14:01] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:14:03] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 108
+[2025-02-12T14:14:03] INFO [root.<module>:72] Parsing 36->Are you able to get to the end of the month without borrowing money?->response: {0: ['no', 'sometimes'], 1: ['yes']}
+[2025-02-12T14:14:04] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:14:06] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 108
+[2025-02-12T14:14:06] INFO [root.<module>:72] Parsing 37->Are you able to save money each month for yourself or your family? ->response: {0: ['no'], 1: ['sometimes', 'yes']}
+[2025-02-12T14:14:08] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:14:09] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-12T14:14:09] INFO [root.<module>:72] Parsing 38->Have you seen a colleague or have you been promoted and /or upskilled? ->response: {0: ['unsure', 'no'], 1: ['yes']}
+[2025-02-12T14:14:11] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:14:12] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T14:14:12] INFO [root.<module>:72] Parsing 39->Do you feel your safety is treated as a high priority at your workplace?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T14:14:14] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:14:16] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-12T14:14:16] INFO [root.<module>:72] Parsing 40->Do serious injuries and accidents occur at your workplace? ->response: {0: ['yes'], 1: ['no', 'unsure']}
+[2025-02-12T14:14:17] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:14:19] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 135
+[2025-02-12T14:14:19] INFO [root.<module>:72] Parsing 41->Do you ever experience or witness verbal abuse or harassment?->response: {0: ['neither', 'no'], 1: ['witnessed', 'both', 'experienced']}
+[2025-02-12T14:14:21] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:14:23] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 129
+[2025-02-12T14:14:23] INFO [root.<module>:72] Parsing 42->Do you ever experience or witness physical abuse or harassment?->response: {0: ['neither'], 1: ['witnessed', 'experienced', 'both']}
+[2025-02-12T14:14:25] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:14:26] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 101
+[2025-02-12T14:14:26] INFO [root.<module>:72] Parsing 43->Do you ever experience or witness sexual abuse or harassment e.g. physical abuse and/or offensive sexual language?->response: {0: ['neither'], 1: ['both']}
+[2025-02-12T14:14:28] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:14:29] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-12T14:14:29] INFO [root.<module>:72] Parsing 44->Do you feel respected at work?->response: {0: ['no', 'unsure'], 1: ['yes']}
+[2025-02-12T14:14:31] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:14:32] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-12T14:14:32] INFO [root.<module>:72] Parsing 45->After giving notice, are you free to leave this job if you choose without any penalties or negative repercussions? ->response: {0: ['unsure', 'no'], 1: ['yes']}
+[2025-02-12T14:14:34] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:14:36] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-12T14:14:36] INFO [root.<module>:72] Parsing 46->Are you treated differently to people who do a similar job as you? ->response: {0: ['no'], 1: ['yes', 'unsure']}
+[2025-02-12T14:14:37] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:14:39] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 121
+[2025-02-12T14:14:39] INFO [root.<module>:72] Parsing 47->How do you feel about your relationship with your immediate supervisor? ->response: {0: ['unsatisfied', 'neutral'], 1: ['satisfied']}
+[2025-02-12T14:14:40] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:14:42] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 118
+[2025-02-12T14:14:42] INFO [root.<module>:72] Parsing 48->Can you say no to working overtime if you don t want to work it for any reason? (Is working overtime compulsory?)->response: {0: ['no'], 1: ['yes, but not solved', 'yes']}
+[2025-02-12T14:14:44] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:14:46] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 133
+[2025-02-12T14:14:46] INFO [root.<module>:72] Parsing 49->Do you have your original documents (passport, ID, certificates) in your possession?->response: {0: ['donï¿½t know', 'no'], 1: ['yes, they trust', 'yes']}
+[2025-02-12T14:14:47] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:14:50] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 154
+[2025-02-12T14:14:50] INFO [root.<module>:72] Parsing 50->Is it easy to get permission to leave the site and/or accommodation? ->response: {0: ['never try', 'not called yet', 'call not received timely', 'no'], 1: ['yes']}
+[2025-02-12T14:14:51] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:14:53] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T14:14:53] INFO [root.<module>:72] Parsing 51->Does your employer impose financial penalties?->response: {0: ['yes'], 1: ['no']}
+[2025-02-12T14:14:54] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:14:56] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T14:14:56] INFO [root.<module>:72] Parsing 52->Did you pay any fee/monies to get this job?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T14:14:57] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:14:59] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T14:14:59] INFO [root.<module>:72] Parsing 55->Did you come to work for this employer directly from home country?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T14:15:00] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:15:02] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T14:15:02] INFO [root.<module>:72] Parsing 56->Did the employer ask if you paid recruitment fees? ->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T14:15:03] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:15:07] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 270
+[2025-02-12T14:15:07] INFO [root.<module>:72] Parsing 57->Do you have any proof of payment?->response: {0: ["didn't pay any recruitment fees", 'no', 'did not pay any amount', 'no fees given', 'unsure'], 1: ['airfare and other fees within ageny fees. worker has no clue about it', 'yes']}
+[2025-02-12T14:15:09] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:15:10] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T14:15:10] INFO [root.<module>:72] Parsing 58->If yes, then did you give the reciept to your employer?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T14:15:12] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:15:13] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T14:15:13] INFO [root.<module>:72] Parsing 59->If yes, did they reimburse?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T14:15:15] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:15:17] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 114
+[2025-02-12T14:15:17] INFO [root.<module>:72] Parsing 61->Has the worker been recruited directly for an SC project?->response: {0: ['no', 'donï¿½t know'], 1: ['yes']}
+[2025-02-12T14:15:19] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:15:21] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 133
+[2025-02-12T14:15:21] INFO [root.<module>:72] Parsing 63->Is the worker a Worker Representative?
+(please indicate 'Yes' where applicable)
+->response: {0: ['no', '0', '1', '8000', '496.175862068965'], 1: ['yes']}
+[2025-02-12T14:15:23] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:15:24] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-12T14:15:24] INFO [root.<module>:72] Parsing 65->Have you started receiving (SCURS) payment?->response: {0: ['unsure', 'no'], 1: ['yes']}
+[2025-02-12T14:15:26] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:15:29] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 202
+[2025-02-12T14:15:29] INFO [root.<module>:72] Parsing 66->Do you know what this payment is for?->response: {0: ["don't know", 'no', 'niu', 'other', 'unsure'], 1: ['allowance for sc workers', 'reimbursement of recruitment fees', 'yes']}
+[2025-02-12T14:15:31] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:15:33] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 118
+[2025-02-12T14:15:33] INFO [root.<module>:72] Parsing 68->After you and your family have paid all of your family monthly basic needs, is there any money left? ->response: {0: ['no', 'unsure'], 1: ['sometimes', 'yes']}
+[2025-02-12T14:15:34] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:15:36] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 129
+[2025-02-12T14:15:36] INFO [root.<module>:72] Parsing 69->Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From Clients or Customers->response: {0: ['neither'], 1: ['witnessed', 'experienced', 'both']}
+[2025-02-12T14:15:38] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:15:40] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 129
+[2025-02-12T14:15:40] INFO [root.<module>:72] Parsing 70->Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From employees, managers, supervisors->response: {0: ['neither'], 1: ['witnessed', 'experienced', 'both']}
+[2025-02-12T14:15:41] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:15:43] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 132
+[2025-02-12T14:15:43] INFO [root.<module>:72] Parsing 71->If you wanted to leave this job and go back home, could you? ->response: {0: ['no', 'never thought about it', 'neither'], 1: ['yes']}
+[2025-02-12T14:15:45] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:15:46] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T14:15:46] INFO [root.<module>:72] Parsing 72->NEW: If the worker was in Qatar when being recruited to this contractor, have they paid anything to get this job at this contractor?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T14:15:48] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:15:50] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 149
+[2025-02-12T14:15:50] INFO [root.<module>:72] Parsing 73->Will they continue to pay after workers are demobilised from SC projects?->response: {0: ['niu', 'unable to verify', 'no', 'do not know', 'not sure'], 1: ['yes']}
+[2025-02-12T14:15:52] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:15:54] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-12T14:15:54] INFO [root.<module>:72] Parsing 74->Have you started receiving this payment?->response: {0: ['unsure', 'no'], 1: ['yes']}
+[2025-02-12T14:15:55] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T14:15:57] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 115
+[2025-02-12T14:15:57] INFO [root.<module>:72] Parsing 75->Do you use it to pay a loan off?->response: {0: ['niu', 'no'], 1: ['partially', 'yes']}
+[2025-02-12T15:18:48] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:19:00] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 91
+[2025-02-12T15:19:00] INFO [root.<module>:72] Parsing 2->Did you come here to support your family?->response: {0: [], 1: ['yes']}
+[2025-02-12T15:19:02] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:19:03] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:19:03] INFO [root.<module>:72] Parsing 3->Did you come here for better future?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:19:04] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:19:06] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:19:06] INFO [root.<module>:72] Parsing 4->Did you come here to give education to your children?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:19:07] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:19:08] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:19:08] INFO [root.<module>:72] Parsing 5->Did u pay recruitment fees?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:19:10] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:19:38] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 1500
+[2025-02-12T15:19:38] INFO [root.<module>:72] Parsing 6->Do you have to serve any loans?->response: {0: ['no loan', 'no', 'no land mortgege', 'no, loan from relatives for coming qatar', 'no, land mortagage\nqar 700\nfor coming qatar', 'unsure'], 1: ['', 'yes,  2545 (3%)\nqar 100', 'loan 10%', 'yes 2409 inerest 3%\nqar 100', 'yes qr 6818, for coming here\n\ninstallment qr 378', 'loan, 5 %', 'loan 3%', 'yes, qar 9090 \ncoming qatar, qar 500 interest 5%', 'yes, for coming here\nqar 2800\nqar 300', 'loan from friend', 'yes, 3820, (4%) \nqar 250', 'yes, 2857 (3%)\nqar 200\nfor coming qatar', 'loan, 5%', 'yes, 2115 (3%)\nqar 150', 'yes, 3214 (3% interest)\nqar 200\nfor coming qatar', 'loan, for coming qatar, qar 3000 bank (5%) \nqar 300', 'yes, 3461 (3%)\nqar 120', 'yes, 3181', 'yes coming , 7727', 'yes, 19740, \nfrom ngo monthly 900\nfor coming qatar', 'loan 5&', 'yes , 2720 (3%)\nqr 100', 'yes, 2000 \n5%', 'yes, 2954 \nbroker 5%\nqar 150', 'yes, 2500 (3%)\nqar 100', 'yes\nqar 2285 \nlender 10%\nfor coming qatar\nqar 300', 'loan, 10 %', 'yes, 2142 (3%)\nqar 150\nfor coming qatar', 'loan 5 %', 'yes \nqr 11363\nqr 9900 from bank  interest 14% in ayear\nbrother qar 2363\nqar 850', 'loan, double %', 'yes, 3820 (3%)\nqar 250', 'loan from relatives', 'loan from relatives, 10%', 'loan, 10%', 'yes, 4000 (5%)\nqar 300', 'loan, 10 % interest', 'borrowing money', 'yes, 2590 (3%)\nqr 100', 'loan, 3%', 'yes', 'no, sold his shop for coming qatar', 'yes, qar 3000 bank (5%) \nqar 400']}
+[2025-02-12T15:19:40] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:19:52] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 947
+[2025-02-12T15:19:52] INFO [root.<module>:72] Parsing 7->Would you recommend this job to friends or family? Why?->response: {0: ['no, salary not satisfactory', 'no, hard work,', 'no,hard work', 'no, less salary thank expectation', 'no, hard work inhot', 'no', 'no for my job', 'no, hard work less money', 'no, want them to be experienced like him, hit, hard work', 'no, working in hot weater', 'no, better future of \nsisters and brother', 'no, problem with food, less salary', 'no, hit, less salary\n than expectation', 'no, hard work', 'no, too tough job', 'no (my job dirty)', 'no, something better not laborer', 'no, need to educate them', 'no, hard work inhot\nno value of spending too much money for coming here', 'no, hard work if could do this \nat home can earn more money', 'no, hard work, hot', 'no, something better', 'no, risky work', 'no, better future'], 1: ['yes but depending on \noffer', 'yes, my brother', 'yes off course', 'yes, ok for the job', 'yes at my village', 'yes']}
+[2025-02-12T15:19:54] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:19:56] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:19:56] INFO [root.<module>:72] Parsing 9->Recommend? (edit)->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:19:59] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:20:02] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 249
+[2025-02-12T15:20:02] INFO [root.<module>:72] Parsing 13->2. What are you hoping to achieve through this work? Do you think it is possible?->response: {0: ['not possible', 'no', 'not at all'], 1: ['possible', 'yes', 'my children are studying engeenering', 'my brother is studying engeenring.', 'no, my children high education']}
+[2025-02-12T15:20:05] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:20:06] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:20:06] INFO [root.<module>:72] Parsing 14->3a. Do you feel it was worth moving here for work? ->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:20:09] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:20:10] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:20:10] INFO [root.<module>:72] Parsing 15->4a. Is your household income sufficient to meet your family s needs? ->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:20:13] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:20:14] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 91
+[2025-02-12T15:20:14] INFO [root.<module>:72] Parsing 16->5a. Do you send money home each month? ->response: {0: [], 1: ['yes']}
+[2025-02-12T15:20:17] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:20:18] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 81
+[2025-02-12T15:20:18] INFO [root.<module>:72] Parsing 29->Are you a local worker?->response: {0: ['no'], 1: []}
+[2025-02-12T15:20:20] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:20:21] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:20:21] INFO [root.<module>:72] Parsing 31->Are you satisfied with your job?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:20:24] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:20:25] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:20:25] INFO [root.<module>:72] Parsing 32->Would you recommend this factory as a good place to work to a friend?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:20:27] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:20:29] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 141
+[2025-02-12T15:20:29] INFO [root.<module>:72] Parsing 33->Would you like your children to do your job when they get older? ->response: {0: ['no', 'unsure'], 1: ['no,i wish he will do a good job.', 'yes']}
+[2025-02-12T15:20:31] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:20:33] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 108
+[2025-02-12T15:20:33] INFO [root.<module>:72] Parsing 35->Is the money you earn from this job enough to cover your basic needs such as rent, bills, education etc.?->response: {0: ['no'], 1: ['sometimes', 'yes']}
+[2025-02-12T15:20:35] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:20:36] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 108
+[2025-02-12T15:20:36] INFO [root.<module>:72] Parsing 36->Are you able to get to the end of the month without borrowing money?->response: {0: ['no', 'sometimes'], 1: ['yes']}
+[2025-02-12T15:20:38] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:20:39] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 108
+[2025-02-12T15:20:39] INFO [root.<module>:72] Parsing 37->Are you able to save money each month for yourself or your family? ->response: {0: ['no'], 1: ['sometimes', 'yes']}
+[2025-02-12T15:20:44] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:20:46] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-12T15:20:46] INFO [root.<module>:72] Parsing 38->Have you seen a colleague or have you been promoted and /or upskilled? ->response: {0: ['no', 'unsure'], 1: ['yes']}
+[2025-02-12T15:20:48] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:20:50] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:20:50] INFO [root.<module>:72] Parsing 39->Do you feel your safety is treated as a high priority at your workplace?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:20:52] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:20:53] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:20:53] INFO [root.<module>:72] Parsing 40->Do serious injuries and accidents occur at your workplace? ->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:20:55] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:20:57] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 135
+[2025-02-12T15:20:57] INFO [root.<module>:72] Parsing 41->Do you ever experience or witness verbal abuse or harassment?->response: {0: ['no', 'neither'], 1: ['witnessed', 'experienced', 'both']}
+[2025-02-12T15:20:59] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:21:01] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 129
+[2025-02-12T15:21:01] INFO [root.<module>:72] Parsing 42->Do you ever experience or witness physical abuse or harassment?->response: {0: ['neither'], 1: ['witnessed', 'experienced', 'both']}
+[2025-02-12T15:21:02] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:21:04] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 101
+[2025-02-12T15:21:04] INFO [root.<module>:72] Parsing 43->Do you ever experience or witness sexual abuse or harassment e.g. physical abuse and/or offensive sexual language?->response: {0: ['neither'], 1: ['both']}
+[2025-02-12T15:21:07] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:21:08] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:21:08] INFO [root.<module>:72] Parsing 44->Do you feel respected at work?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:21:12] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:21:13] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:21:13] INFO [root.<module>:72] Parsing 45->After giving notice, are you free to leave this job if you choose without any penalties or negative repercussions? ->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:21:16] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:21:17] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:21:17] INFO [root.<module>:72] Parsing 46->Are you treated differently to people who do a similar job as you? ->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:21:20] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:21:21] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 110
+[2025-02-12T15:21:21] INFO [root.<module>:72] Parsing 47->How do you feel about your relationship with your immediate supervisor? ->response: {0: ['unsatisfied'], 1: ['satisfied']}
+[2025-02-12T15:21:24] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:21:26] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 118
+[2025-02-12T15:21:26] INFO [root.<module>:72] Parsing 48->Can you say no to working overtime if you don t want to work it for any reason? (Is working overtime compulsory?)->response: {0: ['no'], 1: ['yes, but not solved', 'yes']}
+[2025-02-12T15:21:28] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:21:30] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 130
+[2025-02-12T15:21:30] INFO [root.<module>:72] Parsing 49->Do you have your original documents (passport, ID, certificates) in your possession?->response: {0: ['no', "don't know"], 1: ['yes, they trust', 'yes']}
+[2025-02-12T15:21:32] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:21:34] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 157
+[2025-02-12T15:21:34] INFO [root.<module>:72] Parsing 50->Is it easy to get permission to leave the site and/or accommodation? ->response: {0: ['donï¿½t know', 'no', 'never try', 'not called yet', 'not sure'], 1: ['yes']}
+[2025-02-12T15:21:36] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:21:38] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:21:38] INFO [root.<module>:72] Parsing 51->Does your employer impose financial penalties?->response: {0: ['yes'], 1: ['no']}
+[2025-02-12T15:21:40] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:21:41] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:21:41] INFO [root.<module>:72] Parsing 52->Did you pay any fee/monies to get this job?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:21:44] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:21:46] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:21:46] INFO [root.<module>:72] Parsing 55->Did you come to work for this employer directly from home country?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:21:48] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:21:49] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:21:49] INFO [root.<module>:72] Parsing 56->Did the employer ask if you paid recruitment fees? ->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:21:51] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:21:55] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 257
+[2025-02-12T15:21:55] INFO [root.<module>:72] Parsing 57->Do you have any proof of payment?->response: {0: ['no', "didn't pay any recruitment fees", 'niu', 'no fees given', 'did not pay any amount'], 1: ['airfare and other fees within ageny fees. worker has no clue about it', 'yes']}
+[2025-02-12T15:21:57] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:21:58] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:21:58] INFO [root.<module>:72] Parsing 58->If yes, then did you give the reciept to your employer?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:22:01] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:22:02] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:22:02] INFO [root.<module>:72] Parsing 59->If yes, did they reimburse?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:22:05] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:22:07] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:22:07] INFO [root.<module>:72] Parsing 61->Has the worker been recruited directly for an SC project?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:22:10] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:22:12] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 125
+[2025-02-12T15:22:12] INFO [root.<module>:72] Parsing 63->Is the worker a Worker Representative?
+(please indicate 'Yes' where applicable)
+->response: {0: ['no', 0, 8000, 496.175862068965], 1: ['yes', 1]}
+[2025-02-12T15:22:14] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:22:16] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-12T15:22:16] INFO [root.<module>:72] Parsing 65->Have you started receiving (SCURS) payment?->response: {0: ['no', 'unsure'], 1: ['yes']}
+[2025-02-12T15:22:19] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:22:21] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 216
+[2025-02-12T15:22:21] INFO [root.<module>:72] Parsing 66->Do you know what this payment is for?->response: {0: ['no', "don't know", 'unsure'], 1: ['allowance for sc workers', 'niu', 'other', 'yes', 'reimbursement of recruitment fees']}
+[2025-02-12T15:22:24] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:22:26] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 118
+[2025-02-12T15:22:26] INFO [root.<module>:72] Parsing 68->After you and your family have paid all of your family monthly basic needs, is there any money left? ->response: {0: ['no'], 1: ['sometimes', 'unsure', 'yes']}
+[2025-02-12T15:22:29] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:22:30] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 129
+[2025-02-12T15:22:30] INFO [root.<module>:72] Parsing 69->Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From Clients or Customers->response: {0: ['neither'], 1: ['witnessed', 'experienced', 'both']}
+[2025-02-12T15:22:33] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:22:34] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 129
+[2025-02-12T15:22:34] INFO [root.<module>:72] Parsing 70->Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From employees, managers, supervisors->response: {0: ['neither'], 1: ['witnessed', 'experienced', 'both']}
+[2025-02-12T15:22:37] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:22:39] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 132
+[2025-02-12T15:22:39] INFO [root.<module>:72] Parsing 71->If you wanted to leave this job and go back home, could you? ->response: {0: ['no', 'never thought about it', 'neither'], 1: ['yes']}
+[2025-02-12T15:22:41] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:22:42] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:22:42] INFO [root.<module>:72] Parsing 72->NEW: If the worker was in Qatar when being recruited to this contractor, have they paid anything to get this job at this contractor?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:22:44] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:22:46] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 142
+[2025-02-12T15:22:46] INFO [root.<module>:72] Parsing 73->Will they continue to pay after workers are demobilised from SC projects?->response: {0: ['no', 'unable to verify', 'do not know', 'not sure'], 1: ['yes']}
+[2025-02-12T15:22:49] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:22:51] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-12T15:22:51] INFO [root.<module>:72] Parsing 74->Have you started receiving this payment?->response: {0: ['no', 'unsure'], 1: ['yes']}
+[2025-02-12T15:22:53] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:22:55] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 108
+[2025-02-12T15:22:55] INFO [root.<module>:72] Parsing 75->Do you use it to pay a loan off?->response: {0: ['no'], 1: ['partially', 'yes']}
+[2025-02-12T15:41:01] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:41:19] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 91
+[2025-02-12T15:41:19] INFO [root.<module>:72] Parsing 2->Did you come here to support your family?->response: {0: [], 1: ['yes']}
+[2025-02-12T15:41:22] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:41:23] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:41:23] INFO [root.<module>:72] Parsing 3->Did you come here for better future?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:41:26] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:41:28] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:41:28] INFO [root.<module>:72] Parsing 4->Did you come here to give education to your children?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:41:30] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:41:32] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-12T15:41:32] INFO [root.<module>:72] Parsing 5->Did u pay recruitment fees?->response: {0: ['yes'], 1: ['no', 'unsure']}
+[2025-02-12T15:41:35] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:42:11] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 1500
+[2025-02-12T15:42:11] INFO [root.<module>:72] Parsing 6->Do you have to serve any loans?->response: {0: ['no', 'no, loan from relatives for coming qatar', 'loan from relatives', 'loan from friend', 'no, land mortagage\nqar 700\nfor coming qatar', 'no land mortgege', 'no loan', 'unsure', 'no, sold his shop for coming qatar'], 1: ['', 'yes 2409 inerest 3%\nqar 100', 'yes, 2115 (3%)\nqar 150', 'yes, 3820, (4%) \nqar 250', 'yes, 2142 (3%)\nqar 150\nfor coming qatar', 'loan, 5%', 'yes, qar 3000 bank (5%) \nqar 400', 'loan 3%', 'yes \nqr 11363\nqr 9900 from bank  interest 14% in ayear\nbrother qar 2363\nqar 850', 'yes, 2500 (3%)\nqar 100', 'yes, 3461 (3%)\nqar 120', 'loan, for coming qatar, qar 3000 bank (5%) \nqar 300', 'yes, for coming here\nqar 2800\nqar 300', 'yes,  2545 (3%)\nqar 100', 'loan, 10 % interest', 'yes, 3820 (3%)\nqar 250', 'yes, 4000 (5%)\nqar 300', 'yes coming , 7727', 'yes, 3181', 'loan, 10 %', 'yes, 2954 \nbroker 5%\nqar 150', 'yes, 2857 (3%)\nqar 200\nfor coming qatar', 'yes', 'borrowing money', 'yes qr 6818, for coming here\n\ninstallment qr 378', 'loan 10%', 'yes, qar 9090 \ncoming qatar, qar 500 interest 5%', 'loan 5&', 'loan, 10%', 'yes, 2590 (3%)\nqr 100', 'loan, double %', 'loan from relatives, 10%', 'yes, 3214 (3% interest)\nqar 200\nfor coming qatar', 'yes\nqar 2285 \nlender 10%\nfor coming qatar\nqar 300', 'loan, 3%', 'loan, 5 %', 'loan 5 %', 'yes, 2000 \n5%', 'yes , 2720 (3%)\nqr 100', 'yes, 19740, \nfrom ngo monthly 900\nfor coming qatar']}
+[2025-02-12T15:42:14] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:42:30] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 972
+[2025-02-12T15:42:30] INFO [root.<module>:72] Parsing 7->Would you recommend this job to friends or family? Why?->response: {0: ['no,hard work', 'no, hard work inhot\nno value of spending too much money for coming here', 'no, something better', 'no, hard work less money', 'no, hard work inhot', 'no, need to\neducate', 'no, too tough job', 'no, hard work if could do this \nat home can earn more money', 'no, need to educate them', 'no', 'no (my job dirty)', 'no, risky work', 'no, hard work', 'no, better future of \nsisters and brother', 'no, hard work, hot', 'no, want them to be experienced like him, hit, hard work', 'no, hit, less salary\n than expectation', 'no, working in hot weater', 'no, something better not laborer', 'no, problem with food, less salary', 'no, better future', 'no, less salary thank expectation', 'no for my job', 'no, salary not satisfactory', 'no, hard work,'], 1: ['yes but depending on \noffer', 'yes', 'yes off course', 'yes, ok for the job', 'yes, my brother', 'yes at my village']}
+[2025-02-12T15:42:33] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:42:35] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:42:35] INFO [root.<module>:72] Parsing 9->Recommend? (edit)->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:42:37] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:42:41] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 249
+[2025-02-12T15:42:41] INFO [root.<module>:72] Parsing 13->2. What are you hoping to achieve through this work? Do you think it is possible?->response: {0: ['not at all', 'no, my children high education', 'no', 'not possible'], 1: ['yes', 'possible', 'my brother is studying engeenring.', 'my children are studying engeenering']}
+[2025-02-12T15:42:45] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:42:46] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:42:46] INFO [root.<module>:72] Parsing 14->3a. Do you feel it was worth moving here for work? ->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:42:50] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:42:51] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:42:51] INFO [root.<module>:72] Parsing 15->4a. Is your household income sufficient to meet your family s needs? ->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:42:54] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:42:56] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 91
+[2025-02-12T15:42:56] INFO [root.<module>:72] Parsing 16->5a. Do you send money home each month? ->response: {0: [], 1: ['yes']}
+[2025-02-12T15:42:58] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:43:00] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 90
+[2025-02-12T15:43:00] INFO [root.<module>:72] Parsing 29->Are you a local worker?->response: {0: ['no'], 1: []}
+[2025-02-12T15:43:04] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:43:05] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-12T15:43:05] INFO [root.<module>:72] Parsing 31->Are you satisfied with your job?->response: {0: ['no', 'unsure'], 1: ['yes']}
+[2025-02-12T15:43:09] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:43:11] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-12T15:43:11] INFO [root.<module>:72] Parsing 32->Would you recommend this factory as a good place to work to a friend?->response: {0: ['no', 'unsure'], 1: ['yes']}
+[2025-02-12T15:43:15] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:43:18] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 141
+[2025-02-12T15:43:18] INFO [root.<module>:72] Parsing 33->Would you like your children to do your job when they get older? ->response: {0: ['no', 'unsure'], 1: ['yes', 'no,i wish he will do a good job.']}
+[2025-02-12T15:43:22] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:43:23] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 108
+[2025-02-12T15:43:23] INFO [root.<module>:72] Parsing 35->Is the money you earn from this job enough to cover your basic needs such as rent, bills, education etc.?->response: {0: ['no', 'sometimes'], 1: ['yes']}
+[2025-02-12T15:43:26] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:43:28] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 108
+[2025-02-12T15:43:28] INFO [root.<module>:72] Parsing 36->Are you able to get to the end of the month without borrowing money?->response: {0: ['no', 'sometimes'], 1: ['yes']}
+[2025-02-12T15:43:31] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:43:33] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 108
+[2025-02-12T15:43:33] INFO [root.<module>:72] Parsing 37->Are you able to save money each month for yourself or your family? ->response: {0: ['no'], 1: ['sometimes', 'yes']}
+[2025-02-12T15:43:36] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:43:38] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-12T15:43:38] INFO [root.<module>:72] Parsing 38->Have you seen a colleague or have you been promoted and /or upskilled? ->response: {0: ['no', 'unsure'], 1: ['yes']}
+[2025-02-12T15:43:41] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:43:43] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:43:43] INFO [root.<module>:72] Parsing 39->Do you feel your safety is treated as a high priority at your workplace?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:43:46] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:43:48] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-12T15:43:48] INFO [root.<module>:72] Parsing 40->Do serious injuries and accidents occur at your workplace? ->response: {0: ['yes', 'unsure'], 1: ['no']}
+[2025-02-12T15:43:52] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:43:54] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 135
+[2025-02-12T15:43:54] INFO [root.<module>:72] Parsing 41->Do you ever experience or witness verbal abuse or harassment?->response: {0: ['no', 'neither'], 1: ['both', 'experienced', 'witnessed']}
+[2025-02-12T15:43:57] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:43:59] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 129
+[2025-02-12T15:43:59] INFO [root.<module>:72] Parsing 42->Do you ever experience or witness physical abuse or harassment?->response: {0: ['neither'], 1: ['witnessed', 'both', 'experienced']}
+[2025-02-12T15:44:06] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:44:07] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 101
+[2025-02-12T15:44:07] INFO [root.<module>:72] Parsing 43->Do you ever experience or witness sexual abuse or harassment e.g. physical abuse and/or offensive sexual language?->response: {0: ['neither'], 1: ['both']}
+[2025-02-12T15:44:11] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:44:13] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-12T15:44:13] INFO [root.<module>:72] Parsing 44->Do you feel respected at work?->response: {0: ['no', 'unsure'], 1: ['yes']}
+[2025-02-12T15:44:17] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:44:20] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-12T15:44:20] INFO [root.<module>:72] Parsing 45->After giving notice, are you free to leave this job if you choose without any penalties or negative repercussions? ->response: {0: ['no', 'unsure'], 1: ['yes']}
+[2025-02-12T15:44:24] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:44:25] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-12T15:44:25] INFO [root.<module>:72] Parsing 46->Are you treated differently to people who do a similar job as you? ->response: {0: ['no'], 1: ['yes', 'unsure']}
+[2025-02-12T15:44:29] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:44:31] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 121
+[2025-02-12T15:44:31] INFO [root.<module>:72] Parsing 47->How do you feel about your relationship with your immediate supervisor? ->response: {0: ['unsatisfied', 'neutral'], 1: ['satisfied']}
+[2025-02-12T15:44:34] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:44:36] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 118
+[2025-02-12T15:44:36] INFO [root.<module>:72] Parsing 48->Can you say no to working overtime if you don t want to work it for any reason? (Is working overtime compulsory?)->response: {0: ['no'], 1: ['yes, but not solved', 'yes']}
+[2025-02-12T15:44:40] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:44:42] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 133
+[2025-02-12T15:44:42] INFO [root.<module>:72] Parsing 49->Do you have your original documents (passport, ID, certificates) in your possession?->response: {0: ['no', 'donï¿½t know'], 1: ['yes, they trust', 'yes']}
+[2025-02-12T15:44:45] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:44:48] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 185
+[2025-02-12T15:44:48] INFO [root.<module>:72] Parsing 50->Is it easy to get permission to leave the site and/or accommodation? ->response: {0: ['never try', 'call not received timely', 'not called yet', 'no'], 1: ['yes', 'donï¿½t know', 'not sure']}
+[2025-02-12T15:44:52] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:44:53] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:44:53] INFO [root.<module>:72] Parsing 51->Does your employer impose financial penalties?->response: {0: ['yes'], 1: ['no']}
+[2025-02-12T15:44:57] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:44:58] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:44:58] INFO [root.<module>:72] Parsing 52->Did you pay any fee/monies to get this job?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:45:02] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:45:03] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:45:03] INFO [root.<module>:72] Parsing 55->Did you come to work for this employer directly from home country?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:45:07] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:45:09] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:45:09] INFO [root.<module>:72] Parsing 56->Did the employer ask if you paid recruitment fees? ->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:45:14] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:45:18] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 265
+[2025-02-12T15:45:18] INFO [root.<module>:72] Parsing 57->Do you have any proof of payment?->response: {0: ['did not pay any amount', 'no fees given', "didn't pay any recruitment fees", 'no', 'niu', 'unsure'], 1: ['yes', 'airfare and other fees within ageny fees. worker has no clue about it']}
+[2025-02-12T15:45:23] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:45:24] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:45:24] INFO [root.<module>:72] Parsing 58->If yes, then did you give the reciept to your employer?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:45:28] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:45:29] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:45:29] INFO [root.<module>:72] Parsing 59->If yes, did they reimburse?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:45:33] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:45:35] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 114
+[2025-02-12T15:45:35] INFO [root.<module>:72] Parsing 61->Has the worker been recruited directly for an SC project?->response: {0: ['no', 'donï¿½t know'], 1: ['yes']}
+[2025-02-12T15:45:38] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:45:41] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 125
+[2025-02-12T15:45:41] INFO [root.<module>:72] Parsing 63->Is the worker a Worker Representative?
+(please indicate 'Yes' where applicable)
+->response: {0: ['no', 0, 8000, 496.175862068965], 1: [1, 'yes']}
+[2025-02-12T15:45:44] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:45:46] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-12T15:45:46] INFO [root.<module>:72] Parsing 65->Have you started receiving (SCURS) payment?->response: {0: ['no', 'unsure'], 1: ['yes']}
+[2025-02-12T15:45:50] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:45:53] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 216
+[2025-02-12T15:45:53] INFO [root.<module>:72] Parsing 66->Do you know what this payment is for?->response: {0: ["don't know", 'no', 'unsure', 'other'], 1: ['yes', 'niu', 'allowance for sc workers', 'reimbursement of recruitment fees']}
+[2025-02-12T15:45:57] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:45:59] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 118
+[2025-02-12T15:45:59] INFO [root.<module>:72] Parsing 68->After you and your family have paid all of your family monthly basic needs, is there any money left? ->response: {0: ['no', 'unsure'], 1: ['yes', 'sometimes']}
+[2025-02-12T15:46:02] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:46:04] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 129
+[2025-02-12T15:46:04] INFO [root.<module>:72] Parsing 69->Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From Clients or Customers->response: {0: ['neither'], 1: ['experienced', 'both', 'witnessed']}
+[2025-02-12T15:46:08] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:46:10] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 129
+[2025-02-12T15:46:10] INFO [root.<module>:72] Parsing 70->Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From employees, managers, supervisors->response: {0: ['neither'], 1: ['witnessed', 'both', 'experienced']}
+[2025-02-12T15:46:14] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:46:16] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 132
+[2025-02-12T15:46:16] INFO [root.<module>:72] Parsing 71->If you wanted to leave this job and go back home, could you? ->response: {0: ['no', 'neither', 'never thought about it'], 1: ['yes']}
+[2025-02-12T15:46:21] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:46:23] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-12T15:46:23] INFO [root.<module>:72] Parsing 72->NEW: If the worker was in Qatar when being recruited to this contractor, have they paid anything to get this job at this contractor?->response: {0: ['no'], 1: ['yes']}
+[2025-02-12T15:46:27] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:46:29] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 149
+[2025-02-12T15:46:29] INFO [root.<module>:72] Parsing 73->Will they continue to pay after workers are demobilised from SC projects?->response: {0: ['unable to verify', 'not sure', 'no', 'do not know', 'niu'], 1: ['yes']}
+[2025-02-12T15:46:33] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:46:35] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 112
+[2025-02-12T15:46:35] INFO [root.<module>:72] Parsing 74->Have you started receiving this payment?->response: {0: ['no', 'unsure', 'niu'], 1: ['yes']}
+[2025-02-12T15:46:38] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-12T15:46:40] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 115
+[2025-02-12T15:46:40] INFO [root.<module>:72] Parsing 75->Do you use it to pay a loan off?->response: {0: ['no', 'niu'], 1: ['partially', 'yes']}
+[2025-02-13T12:38:25] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T12:43:58] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+./st[2025-02-13T12:58:02] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T12:58:05] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 91
+[2025-02-13T12:58:05] INFO [root.<module>:84] Parsing 2->Did you come here to support your family?->response: {0: [], 1: ['yes']}
+[2025-02-13T12:58:07] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T12:58:08] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T12:58:08] INFO [root.<module>:84] Parsing 3->Did you come here for better future?->response: {0: ['no'], 1: ['yes']}
+[2025-02-13T12:58:10] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T12:58:12] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T12:58:12] INFO [root.<module>:84] Parsing 4->Did you come here to give education to your children?->response: {0: ['no'], 1: ['yes']}
+[2025-02-13T12:58:14] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T12:58:16] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-13T12:58:16] INFO [root.<module>:84] Parsing 5->Did u pay recruitment fees?->response: {0: ['yes'], 1: ['no', 'unsure']}
+[2025-02-13T12:58:18] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T12:58:54] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 1482
+[2025-02-13T12:58:54] INFO [root.<module>:84] Parsing 6->Do you have to serve any loans?->response: {0: ['', 'no, loan from relatives for coming qatar', 'unsure', 'no, sold his shop for coming qatar', 'no land mortgege', 'no loan', 'no, land mortagage\nqar 700\nfor coming qatar'], 1: ['yes, 19740, \nfrom ngo monthly 900\nfor coming qatar', 'yes', 'yes, 2000 \n5%', 'yes, 2954 \nbroker 5%\nqar 150', 'yes \nqr 11363\nqr 9900 from bank  interest 14% in ayear\nbrother qar 2363\nqar 850', 'loan, 5 %', 'loan, 10%', 'yes, 2142 (3%)\nqar 150\nfor coming qatar', 'yes, 2500 (3%)\nqar 100', 'yes, 3820 (3%)\nqar 250', 'yes,  2545 (3%)\nqar 100', 'yes , 2720 (3%)\nqr 100', 'yes, 4000 (5%)\nqar 300', 'yes, 3461 (3%)\nqar 120', 'yes coming , 7727', 'loan from friend', 'loan 5&', 'yes, qar 3000 bank (5%) \nqar 400', 'yes, for coming here\nqar 2800\nqar 300', 'yes, 2590 (3%)\nqr 100', 'loan, double %', 'yes\nqar 2285 \nlender 10%\nfor coming qatar\nqar 300', 'loan 3%', 'loan 5 %', 'loan from relatives', 'yes 2409 inerest 3%\nqar 100', 'borrowing money', 'yes qr 6818, for coming here\n\ninstallment qr 378', 'yes, qar 9090 \ncoming qatar, qar 500 interest 5%', 'yes, 3820, (4%) \nqar 250', 'loan, 10 % interest', 'loan from relatives, 10%', 'loan, 5%', 'loan, for coming qatar, qar 3000 bank (5%) \nqar 300', 'yes, 2115 (3%)\nqar 150', 'yes, 3214 (3% interest)\nqar 200\nfor coming qatar', 'loan 10%', 'yes, 2857 (3%)\nqar 200\nfor coming qatar', 'loan, 10 %', 'yes, 3181']}
+[2025-02-13T12:58:59] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T12:59:15] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 982
+[2025-02-13T12:59:15] INFO [root.<module>:84] Parsing 7->Would you recommend this job to friends or family? Why?->response: {0: ['no, working in hot weater', 'no, salary not satisfactory', 'no (my job dirty)', 'no,hard work', 'no, problem with food, less salary', 'no, too tough job', 'no, want them to be experienced like him, hit, hard work', 'no, hard work inhot', 'no, hard work if could do this \nat home can earn more money', 'no, better future of \nsisters and brother', 'no, hard work,', 'no, hard work', 'no, less salary thank expectation', 'no, better future', 'no, something better', 'no, hard work less money', 'no, risky work', 'no, need to educate them', 'no, hard work, hot', 'no, hard work inhot\nno value of spending too much money for coming here', 'no, need to\neducate', 'no for my job', 'no, hit, less salary\n than expectation', 'no, something better not laborer', 'no'], 1: ['yes but depending on \noffer', 'yes', 'unsure', 'yes, ok for the job', 'yes off course', 'yes, my brother', 'yes at my village']}
+[2025-02-13T12:59:19] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T12:59:21] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T12:59:21] INFO [root.<module>:84] Parsing 8->Recommend? (edit)->response: {0: ['no'], 1: ['yes']}
+[2025-02-13T12:59:31] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T12:59:35] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 249
+[2025-02-13T12:59:35] INFO [root.<module>:84] Parsing 12->2. What are you hoping to achieve through this work? Do you think it is possible?->response: {0: ['not possible', 'not at all', 'no'], 1: ['yes', 'possible', 'my children are studying engeenering', 'my brother is studying engeenring.', 'no, my children high education']}
+[2025-02-13T12:59:39] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T12:59:41] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T12:59:41] INFO [root.<module>:84] Parsing 13->3a. Do you feel it was worth moving here for work? ->response: {0: ['no'], 1: ['yes']}
+[2025-02-13T12:59:45] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T12:59:47] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T12:59:47] INFO [root.<module>:84] Parsing 14->4a. Is your household income sufficient to meet your family s needs? ->response: {0: ['no'], 1: ['yes']}
+[2025-02-13T12:59:50] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T12:59:51] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 91
+[2025-02-13T12:59:51] INFO [root.<module>:84] Parsing 15->5a. Do you send money home each month? ->response: {0: [], 1: ['yes']}
+[2025-02-13T13:00:19] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:00:21] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 90
+[2025-02-13T13:00:21] INFO [root.<module>:84] Parsing 28->Are you a local worker?->response: {0: ['no'], 1: []}
+[2025-02-13T13:00:24] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:00:26] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-13T13:00:26] INFO [root.<module>:84] Parsing 30->Are you satisfied with your job?->response: {0: ['no', 'unsure'], 1: ['yes']}
+[2025-02-13T13:00:28] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:00:30] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-13T13:00:30] INFO [root.<module>:84] Parsing 31->Would you recommend this factory as a good place to work to a friend?->response: {0: ['no', 'unsure'], 1: ['yes']}
+[2025-02-13T13:00:31] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:00:34] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 141
+[2025-02-13T13:00:34] INFO [root.<module>:84] Parsing 32->Would you like your children to do your job when they get older? ->response: {0: ['no', 'unsure', 'no,i wish he will do a good job.'], 1: ['yes']}
+[2025-02-13T13:00:35] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:00:37] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 108
+[2025-02-13T13:00:37] INFO [root.<module>:84] Parsing 34->Is the money you earn from this job enough to cover your basic needs such as rent, bills, education etc.?->response: {0: ['no', 'sometimes'], 1: ['yes']}
+[2025-02-13T13:00:39] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:00:40] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 108
+[2025-02-13T13:00:40] INFO [root.<module>:84] Parsing 35->Are you able to get to the end of the month without borrowing money?->response: {0: ['no', 'sometimes'], 1: ['yes']}
+[2025-02-13T13:00:42] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:00:44] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 108
+[2025-02-13T13:00:44] INFO [root.<module>:84] Parsing 36->Are you able to save money each month for yourself or your family? ->response: {0: ['no'], 1: ['sometimes', 'yes']}
+[2025-02-13T13:00:45] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:00:47] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-13T13:00:47] INFO [root.<module>:84] Parsing 37->Have you seen a colleague or have you been promoted and /or upskilled? ->response: {0: ['unsure', 'no'], 1: ['yes']}
+[2025-02-13T13:00:49] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:00:50] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T13:00:50] INFO [root.<module>:84] Parsing 38->Do you feel your safety is treated as a high priority at your workplace?->response: {0: ['no'], 1: ['yes']}
+[2025-02-13T13:00:52] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:00:54] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-13T13:00:54] INFO [root.<module>:84] Parsing 39->Do serious injuries and accidents occur at your workplace? ->response: {0: ['yes'], 1: ['no', 'unsure']}
+[2025-02-13T13:00:55] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:00:58] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 135
+[2025-02-13T13:00:58] INFO [root.<module>:84] Parsing 40->Do you ever experience or witness verbal abuse or harassment?->response: {0: ['no', 'neither'], 1: ['both', 'experienced', 'witnessed']}
+[2025-02-13T13:00:59] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:01:01] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 129
+[2025-02-13T13:01:01] INFO [root.<module>:84] Parsing 41->Do you ever experience or witness physical abuse or harassment?->response: {0: ['neither'], 1: ['witnessed', 'both', 'experienced']}
+[2025-02-13T13:01:03] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:01:04] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 101
+[2025-02-13T13:01:04] INFO [root.<module>:84] Parsing 42->Do you ever experience or witness sexual abuse or harassment e.g. physical abuse and/or offensive sexual language?->response: {0: ['neither'], 1: ['both']}
+[2025-02-13T13:01:06] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:01:08] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-13T13:01:08] INFO [root.<module>:84] Parsing 43->Do you feel respected at work?->response: {0: ['no', 'unsure'], 1: ['yes']}
+[2025-02-13T13:01:09] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:01:11] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-13T13:01:11] INFO [root.<module>:84] Parsing 44->After giving notice, are you free to leave this job if you choose without any penalties or negative repercussions? ->response: {0: ['no', 'unsure'], 1: ['yes']}
+[2025-02-13T13:01:13] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:01:15] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-13T13:01:15] INFO [root.<module>:84] Parsing 45->Are you treated differently to people who do a similar job as you? ->response: {0: ['no', 'unsure'], 1: ['yes']}
+[2025-02-13T13:01:16] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:01:18] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 121
+[2025-02-13T13:01:18] INFO [root.<module>:84] Parsing 46->How do you feel about your relationship with your immediate supervisor? ->response: {0: ['unsatisfied', 'neutral'], 1: ['satisfied']}
+[2025-02-13T13:01:20] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:01:22] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 118
+[2025-02-13T13:01:22] INFO [root.<module>:84] Parsing 47->Can you say no to working overtime if you don t want to work it for any reason? (Is working overtime compulsory?)->response: {0: ['no'], 1: ['yes', 'yes, but not solved']}
+[2025-02-13T13:01:23] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:01:25] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 133
+[2025-02-13T13:01:25] INFO [root.<module>:84] Parsing 48->Do you have your original documents (passport, ID, certificates) in your possession?->response: {0: ['no', 'don’t know'], 1: ['yes, they trust', 'yes']}
+[2025-02-13T13:01:27] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:01:30] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 185
+[2025-02-13T13:01:30] INFO [root.<module>:84] Parsing 49->Is it easy to get permission to leave the site and/or accommodation? ->response: {0: ['not called yet', 'call not received timely', 'not sure', 'don’t know', 'never try', 'no'], 1: ['yes']}
+[2025-02-13T13:01:32] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:01:33] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T13:01:34] INFO [root.<module>:84] Parsing 50->Does your employer impose financial penalties?->response: {0: ['yes'], 1: ['no']}
+[2025-02-13T13:01:36] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:01:37] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 115
+[2025-02-13T13:01:37] INFO [root.<module>:84] Parsing 51->Did you pay any fee/monies to get this job?->response: {0: ['no'], 1: ['yes', '544.348275862069']}
+[2025-02-13T13:01:42] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:01:43] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T13:01:43] INFO [root.<module>:84] Parsing 53->Did you come to work for this employer directly from home country?->response: {0: ['no'], 1: ['yes']}
+[2025-02-13T13:01:45] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:01:46] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T13:01:46] INFO [root.<module>:84] Parsing 54->Did the employer ask if you paid recruitment fees? ->response: {0: ['no'], 1: ['yes']}
+[2025-02-13T13:01:48] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:01:52] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 265
+[2025-02-13T13:01:52] INFO [root.<module>:84] Parsing 55->Do you have any proof of payment?->response: {0: ['airfare and other fees within ageny fees. worker has no clue about it', 'unsure', 'did not pay any amount', 'no fees given', 'niu', 'no'], 1: ['yes', "didn't pay any recruitment fees"]}
+[2025-02-13T13:01:54] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:01:55] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T13:01:55] INFO [root.<module>:84] Parsing 56->If yes, then did you give the reciept to your employer?->response: {0: ['no'], 1: ['yes']}
+[2025-02-13T13:01:57] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:01:58] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T13:01:58] INFO [root.<module>:84] Parsing 57->If yes, did they reimburse?->response: {0: ['no'], 1: ['yes']}
+[2025-02-13T13:02:00] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:02:02] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 124
+[2025-02-13T13:02:02] INFO [root.<module>:84] Parsing 58->Is the worker a Worker Representative?
+(please indicate 'Yes' where applicable)
+->response: {0: ['no', 8000.0, 496.175862068965], 1: [1, 'yes']}
+[2025-02-13T13:02:04] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:02:06] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-13T13:02:06] INFO [root.<module>:84] Parsing 59->Have you started receiving (SCURS) payment?->response: {0: ['unsure', 'no'], 1: ['yes']}
+[2025-02-13T13:02:08] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:02:11] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 216
+[2025-02-13T13:02:11] INFO [root.<module>:84] Parsing 60->Do you know what this payment is for?->response: {0: ["don't know", 'unsure', 'no', 'other'], 1: ['reimbursement of recruitment fees', 'yes', 'allowance for sc workers', 'niu']}
+[2025-02-13T13:02:12] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:02:14] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 118
+[2025-02-13T13:02:14] INFO [root.<module>:84] Parsing 62->After you and your family have paid all of your family monthly basic needs, is there any money left? ->response: {0: ['no', 'unsure'], 1: ['yes', 'sometimes']}
+[2025-02-13T13:02:16] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:02:18] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 129
+[2025-02-13T13:02:18] INFO [root.<module>:84] Parsing 63->Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From Clients or Customers->response: {0: ['neither'], 1: ['witnessed', 'both', 'experienced']}
+[2025-02-13T13:02:20] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:02:22] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 129
+[2025-02-13T13:02:22] INFO [root.<module>:84] Parsing 64->Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From employees, managers, supervisors->response: {0: ['neither'], 1: ['witnessed', 'both', 'experienced']}
+[2025-02-13T13:02:24] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:02:26] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 132
+[2025-02-13T13:02:26] INFO [root.<module>:84] Parsing 65->If you wanted to leave this job and go back home, could you? ->response: {0: ['no', 'never thought about it', 'neither'], 1: ['yes']}
+[2025-02-13T13:02:28] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:02:30] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T13:02:30] INFO [root.<module>:84] Parsing 66->NEW: If the worker was in Qatar when being recruited to this contractor, have they paid anything to get this job at this contractor?->response: {0: ['no'], 1: ['yes']}
+[2025-02-13T13:02:31] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:02:34] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 149
+[2025-02-13T13:02:34] INFO [root.<module>:84] Parsing 67->Will they continue to pay after workers are demobilised from SC projects?->response: {0: ['no', 'unable to verify', 'not sure', 'do not know', 'niu'], 1: ['yes']}
+[2025-02-13T13:02:35] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:02:37] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 112
+[2025-02-13T13:02:37] INFO [root.<module>:84] Parsing 68->Have you started receiving this payment?->response: {0: ['unsure', 'no'], 1: ['yes', 'niu']}
+[2025-02-13T13:02:39] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:02:41] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 115
+[2025-02-13T13:02:41] INFO [root.<module>:84] Parsing 69->Do you use it to pay a loan off?->response: {0: ['no', 'niu'], 1: ['yes', 'partially']}
+[2025-02-13T13:10:17] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:10:32] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 91
+[2025-02-13T13:10:32] INFO [root.<module>:84] Parsing 2->Did you come here to support your family?->response: {0: [], 1: ['yes']}
+[2025-02-13T13:10:35] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:10:37] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T13:10:37] INFO [root.<module>:84] Parsing 3->Did you come here for better future?->response: {0: ['no'], 1: ['yes']}
+[2025-02-13T13:10:40] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:10:41] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T13:10:41] INFO [root.<module>:84] Parsing 4->Did you come here to give education to your children?->response: {0: ['no'], 1: ['yes']}
+[2025-02-13T13:10:44] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:10:46] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-13T13:10:46] INFO [root.<module>:84] Parsing 5->Did u pay recruitment fees?->response: {0: ['yes'], 1: ['no', 'unsure']}
+[2025-02-13T13:10:49] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:11:24] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 1482
+[2025-02-13T13:11:24] INFO [root.<module>:84] Parsing 6->Do you have to serve any loans?->response: {0: ['no, loan from relatives for coming qatar', 'no, sold his shop for coming qatar', 'no, land mortagage\nqar 700\nfor coming qatar', 'unsure', 'no land mortgege', 'no loan', ''], 1: ['yes,  2545 (3%)\nqar 100', 'loan, 3%', 'loan 5 %', 'loan, 10%', 'yes qr 6818, for coming here\n\ninstallment qr 378', 'yes, 2142 (3%)\nqar 150\nfor coming qatar', 'yes, 3461 (3%)\nqar 120', 'loan, 5 %', 'borrowing money', 'yes, 3214 (3% interest)\nqar 200\nfor coming qatar', 'yes, 2115 (3%)\nqar 150', 'yes, 3181', 'loan, 10 % interest', 'yes 2409 inerest 3%\nqar 100', 'loan from relatives', 'yes, 2954 \nbroker 5%\nqar 150', 'yes, 19740, \nfrom ngo monthly 900\nfor coming qatar', 'loan, 10 %', 'yes, qar 9090 \ncoming qatar, qar 500 interest 5%', 'loan, double %', 'loan, 5%', 'yes, qar 3000 bank (5%) \nqar 400', 'yes, 2000 \n5%', 'loan, for coming qatar, qar 3000 bank (5%) \nqar 300', 'loan from relatives, 10%', 'yes, 2590 (3%)\nqr 100', 'yes, 4000 (5%)\nqar 300', 'yes, 2500 (3%)\nqar 100', 'yes , 2720 (3%)\nqr 100', 'yes \nqr 11363\nqr 9900 from bank  interest 14% in ayear\nbrother qar 2363\nqar 850', 'yes, 2857 (3%)\nqar 200\nfor coming qatar', 'yes, 3820, (4%) \nqar 250', 'loan 3%', 'yes, 3820 (3%)\nqar 250', 'loan from friend', 'yes\nqar 2285 \nlender 10%\nfor coming qatar\nqar 300', 'loan 5&', 'yes', 'yes, for coming here\nqar 2800\nqar 300', 'yes coming , 7727']}
+[2025-02-13T13:11:29] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:11:45] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 972
+[2025-02-13T13:11:45] INFO [root.<module>:84] Parsing 7->Would you recommend this job to friends or family? Why?->response: {0: ['no, problem with food, less salary', 'no, salary not satisfactory', 'no, hard work less money', 'no for my job', 'no, hard work inhot', 'no, something better not laborer', 'no, hard work', 'no, need to educate them', 'no, hard work,', 'no, better future of \nsisters and brother', 'no (my job dirty)', 'no, hard work, hot', 'no, better future', 'no, working in hot weater', 'no, less salary thank expectation', 'no, hard work if could do this \nat home can earn more money', 'no, something better', 'no, hit, less salary\n than expectation', 'no, want them to be experienced like him, hit, hard work', 'no,hard work', 'no, need to\neducate', 'no, risky work', 'no, too tough job', 'no, hard work inhot\nno value of spending too much money for coming here', 'no'], 1: ['yes at my village', 'yes, ok for the job', 'yes off course', 'yes', 'yes, my brother', 'yes but depending on \noffer']}
+[2025-02-13T13:11:49] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:11:50] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T13:11:50] INFO [root.<module>:84] Parsing 8->Recommend? (edit)->response: {0: ['no'], 1: ['yes']}
+[2025-02-13T13:11:58] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:12:02] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 249
+[2025-02-13T13:12:02] INFO [root.<module>:84] Parsing 12->2. What are you hoping to achieve through this work? Do you think it is possible?->response: {0: ['no, my children high education', 'not at all', 'not possible', 'no'], 1: ['my children are studying engeenering', 'possible', 'yes', 'my brother is studying engeenring.']}
+[2025-02-13T13:12:07] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:12:08] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T13:12:08] INFO [root.<module>:84] Parsing 13->3a. Do you feel it was worth moving here for work? ->response: {0: ['no'], 1: ['yes']}
+[2025-02-13T13:12:13] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:12:14] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T13:12:14] INFO [root.<module>:84] Parsing 14->4a. Is your household income sufficient to meet your family s needs? ->response: {0: ['no'], 1: ['yes']}
+[2025-02-13T13:12:19] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:12:21] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 91
+[2025-02-13T13:12:21] INFO [root.<module>:84] Parsing 15->5a. Do you send money home each month? ->response: {0: [], 1: ['yes']}
+[2025-02-13T13:13:12] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:13:14] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 90
+[2025-02-13T13:13:14] INFO [root.<module>:84] Parsing 28->Are you a local worker?->response: {0: ['no'], 1: []}
+[2025-02-13T13:13:25] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:13:27] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-13T13:13:27] INFO [root.<module>:84] Parsing 30->Are you satisfied with your job?->response: {0: ['no', 'unsure'], 1: ['yes']}
+[2025-02-13T13:13:31] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:13:33] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-13T13:13:33] INFO [root.<module>:84] Parsing 31->Would you recommend this factory as a good place to work to a friend?->response: {0: ['no', 'unsure'], 1: ['yes']}
+[2025-02-13T13:13:37] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:13:39] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 141
+[2025-02-13T13:13:39] INFO [root.<module>:84] Parsing 32->Would you like your children to do your job when they get older? ->response: {0: ['no', 'unsure'], 1: ['yes', 'no,i wish he will do a good job.']}
+[2025-02-13T13:13:43] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:13:45] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 108
+[2025-02-13T13:13:45] INFO [root.<module>:84] Parsing 34->Is the money you earn from this job enough to cover your basic needs such as rent, bills, education etc.?->response: {0: ['no', 'sometimes'], 1: ['yes']}
+[2025-02-13T13:13:49] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:13:51] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 108
+[2025-02-13T13:13:51] INFO [root.<module>:84] Parsing 35->Are you able to get to the end of the month without borrowing money?->response: {0: ['no', 'sometimes'], 1: ['yes']}
+[2025-02-13T13:13:54] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:13:56] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 108
+[2025-02-13T13:13:56] INFO [root.<module>:84] Parsing 36->Are you able to save money each month for yourself or your family? ->response: {0: ['no'], 1: ['yes', 'sometimes']}
+[2025-02-13T13:14:00] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:14:02] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-13T13:14:02] INFO [root.<module>:84] Parsing 37->Have you seen a colleague or have you been promoted and /or upskilled? ->response: {0: ['unsure', 'no'], 1: ['yes']}
+[2025-02-13T13:14:07] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:14:08] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T13:14:08] INFO [root.<module>:84] Parsing 38->Do you feel your safety is treated as a high priority at your workplace?->response: {0: ['no'], 1: ['yes']}
+[2025-02-13T13:14:14] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:14:15] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-13T13:14:15] INFO [root.<module>:84] Parsing 39->Do serious injuries and accidents occur at your workplace? ->response: {0: ['no'], 1: ['yes', 'unsure']}
+[2025-02-13T13:14:20] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:14:23] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 135
+[2025-02-13T13:14:23] INFO [root.<module>:84] Parsing 40->Do you ever experience or witness verbal abuse or harassment?->response: {0: ['neither', 'no'], 1: ['experienced', 'witnessed', 'both']}
+[2025-02-13T13:14:27] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:14:29] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 129
+[2025-02-13T13:14:29] INFO [root.<module>:84] Parsing 41->Do you ever experience or witness physical abuse or harassment?->response: {0: ['neither'], 1: ['both', 'witnessed', 'experienced']}
+[2025-02-13T13:14:33] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:14:34] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 101
+[2025-02-13T13:14:34] INFO [root.<module>:84] Parsing 42->Do you ever experience or witness sexual abuse or harassment e.g. physical abuse and/or offensive sexual language?->response: {0: ['neither'], 1: ['both']}
+[2025-02-13T13:14:38] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:14:40] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-13T13:14:40] INFO [root.<module>:84] Parsing 43->Do you feel respected at work?->response: {0: ['no', 'unsure'], 1: ['yes']}
+[2025-02-13T13:14:44] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:14:46] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-13T13:14:46] INFO [root.<module>:84] Parsing 44->After giving notice, are you free to leave this job if you choose without any penalties or negative repercussions? ->response: {0: ['no', 'unsure'], 1: ['yes']}
+[2025-02-13T13:14:50] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:14:52] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-13T13:14:52] INFO [root.<module>:84] Parsing 45->Are you treated differently to people who do a similar job as you? ->response: {0: ['no', 'unsure'], 1: ['yes']}
+[2025-02-13T13:14:55] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:14:57] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 121
+[2025-02-13T13:14:57] INFO [root.<module>:84] Parsing 46->How do you feel about your relationship with your immediate supervisor? ->response: {0: ['unsatisfied', 'neutral'], 1: ['satisfied']}
+[2025-02-13T13:15:01] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:15:03] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 118
+[2025-02-13T13:15:03] INFO [root.<module>:84] Parsing 47->Can you say no to working overtime if you don t want to work it for any reason? (Is working overtime compulsory?)->response: {0: ['no'], 1: ['yes', 'yes, but not solved']}
+[2025-02-13T13:15:10] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:15:12] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 133
+[2025-02-13T13:15:12] INFO [root.<module>:84] Parsing 48->Do you have your original documents (passport, ID, certificates) in your possession?->response: {0: ['no', 'don’t know'], 1: ['yes, they trust', 'yes']}
+[2025-02-13T13:15:17] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:15:20] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 185
+[2025-02-13T13:15:20] INFO [root.<module>:84] Parsing 49->Is it easy to get permission to leave the site and/or accommodation? ->response: {0: ['no', 'never try', 'call not received timely', 'don’t know', 'not sure', 'not called yet'], 1: ['yes']}
+[2025-02-13T13:15:25] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:15:27] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T13:15:27] INFO [root.<module>:84] Parsing 50->Does your employer impose financial penalties?->response: {0: ['yes'], 1: ['no']}
+[2025-02-13T13:15:31] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:15:33] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 115
+[2025-02-13T13:15:33] INFO [root.<module>:84] Parsing 51->Did you pay any fee/monies to get this job?->response: {0: ['no'], 1: ['yes', '544.348275862069']}
+[2025-02-13T13:15:42] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:15:43] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T13:15:43] INFO [root.<module>:84] Parsing 53->Did you come to work for this employer directly from home country?->response: {0: ['no'], 1: ['yes']}
+[2025-02-13T13:15:48] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:15:49] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T13:15:49] INFO [root.<module>:84] Parsing 54->Did the employer ask if you paid recruitment fees? ->response: {0: ['no'], 1: ['yes']}
+[2025-02-13T13:15:53] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:15:57] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 258
+[2025-02-13T13:15:57] INFO [root.<module>:84] Parsing 55->Do you have any proof of payment?->response: {0: ['no', 'no fees given', 'did not pay any amount', "didn't pay any recruitment fees", 'unsure', 'airfare and other fees within ageny fees. worker has no clue about it'], 1: ['yes']}
+[2025-02-13T13:16:01] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:16:02] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T13:16:02] INFO [root.<module>:84] Parsing 56->If yes, then did you give the reciept to your employer?->response: {0: ['no'], 1: ['yes']}
+[2025-02-13T13:16:07] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:16:08] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T13:16:08] INFO [root.<module>:84] Parsing 57->If yes, did they reimburse?->response: {0: ['no'], 1: ['yes']}
+[2025-02-13T13:16:14] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:16:17] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 127
+[2025-02-13T13:16:17] INFO [root.<module>:84] Parsing 58->Is the worker a Worker Representative?
+(please indicate 'Yes' where applicable)
+->response: {0: ['no', 0, 496.175862068965], 1: ['yes', 1, 8000.0]}
+[2025-02-13T13:16:22] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:16:24] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 105
+[2025-02-13T13:16:24] INFO [root.<module>:84] Parsing 59->Have you started receiving (SCURS) payment?->response: {0: ['no', 'unsure'], 1: ['yes']}
+[2025-02-13T13:16:30] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:16:33] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 202
+[2025-02-13T13:16:33] INFO [root.<module>:84] Parsing 60->Do you know what this payment is for?->response: {0: ["don't know", 'unsure', 'no', 'other'], 1: ['allowance for sc workers', 'reimbursement of recruitment fees', 'yes', 'niu']}
+[2025-02-13T13:16:37] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:16:39] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 118
+[2025-02-13T13:16:39] INFO [root.<module>:84] Parsing 62->After you and your family have paid all of your family monthly basic needs, is there any money left? ->response: {0: ['no', 'unsure', 'sometimes'], 1: ['yes']}
+[2025-02-13T13:16:44] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:16:46] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 129
+[2025-02-13T13:16:46] INFO [root.<module>:84] Parsing 63->Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From Clients or Customers->response: {0: ['neither'], 1: ['experienced', 'both', 'witnessed']}
+[2025-02-13T13:16:51] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:16:53] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 129
+[2025-02-13T13:16:53] INFO [root.<module>:84] Parsing 64->Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From employees, managers, supervisors->response: {0: ['neither'], 1: ['experienced', 'both', 'witnessed']}
+[2025-02-13T13:17:01] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:17:03] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 132
+[2025-02-13T13:17:03] INFO [root.<module>:84] Parsing 65->If you wanted to leave this job and go back home, could you? ->response: {0: ['never thought about it', 'neither', 'no'], 1: ['yes']}
+[2025-02-13T13:17:09] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:17:11] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 95
+[2025-02-13T13:17:11] INFO [root.<module>:84] Parsing 66->NEW: If the worker was in Qatar when being recruited to this contractor, have they paid anything to get this job at this contractor?->response: {0: ['no'], 1: ['yes']}
+[2025-02-13T13:17:18] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:17:21] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 149
+[2025-02-13T13:17:21] INFO [root.<module>:84] Parsing 67->Will they continue to pay after workers are demobilised from SC projects?->response: {0: ['no', 'do not know', 'niu', 'unable to verify', 'not sure'], 1: ['yes']}
+[2025-02-13T13:17:27] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:17:29] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 112
+[2025-02-13T13:17:29] INFO [root.<module>:84] Parsing 68->Have you started receiving this payment?->response: {0: ['unsure', 'no', 'niu'], 1: ['yes']}
+[2025-02-13T13:17:35] DEBUG [urllib3.connectionpool._new_conn:241] Starting new HTTP connection (1): 135.237.153.168:8888
+[2025-02-13T13:17:36] DEBUG [urllib3.connectionpool._make_request:544] http://135.237.153.168:8888 "POST /api/train/llm/rag/invoke HTTP/1.1" 200 108
+[2025-02-13T13:17:36] INFO [root.<module>:84] Parsing 69->Do you use it to pay a loan off?->response: {0: ['no'], 1: ['yes', 'partially']}

@@ -1,0 +1,26 @@
+-Goal-  
+Given a question and a list of answers, strictly classify the answers into exactly two clusters based on their semantic meaning using the question as a context.  
+
+-Steps-  
+1. Analyze the given question as context and strictly classify each answer from the provided list as either positive or negative.
+
+2. Assign each answer to one of the following clusters, ensuring the classification aligns with the context of the question:
+    - Cluster 1: Contains all positive or mildly positive answers.
+    - Cluster 0: Contains all negative or mildly negative answers.
+
+3. Ensure that:  
+   - Each text entry is strictly assigned to exactly one of the two clusters.  
+   - Classification is consistent and aligned with the semantic meaning.
+
+-Output Format-  
+Return a dictionary formatted as follows:  
+{
+  0: [negative_text1, negative_text2, ...],
+  1: [positive_text1, positive_text2, ...]
+}
+
+-Constraints-
+- Strictly return only the dictionary with no additional text, commentary, or explanations.
+- Maintain consistency in classification based on semantic meaning.
+######################
+Your input text is:

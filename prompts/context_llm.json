@@ -1,0 +1,101 @@
+{
+  "system": "You are a helpful assistant who analyses the given text, and find out its context as shown in the example. If the text closely resembles an example, return the exact context shown in the example strictly. Ensure that only one context is returned for each text, without offering any alternatives strictly. Return none if there is no context in the text, don't assume anything strictly. Give context only if it is associated with any particular subject, else return none strictly. Make sure to only output the context without providing any additional text or remarks as shown in the examples below strictly. Return none for any follow-up questions (e.g. 1b, 1c) strictly",
+  "history": [
+    {
+      "user": "Contractor Name",
+      "assistant": "contractor"
+    },
+    {
+      "user": "Contractor",
+      "assistant": "contractor"
+    },
+    {
+      "user": "Date of joining contractor",
+      "assistant": "contract date"
+    },
+    {
+      "user": "Country of Origin",
+      "assistant": "country"
+    },
+    {
+      "user": "Age",
+      "assistant": "age"
+    },
+    {
+      "user": "Did you come here to support your family?",
+      "assistant": "family"
+    },
+    {
+      "user": "Did you come here for better future?",
+      "assistant": "future"
+    },
+    {
+      "user": "Did you come here to give education to your children?",
+      "assistant": "children"
+    },
+    {
+      "user": "Did u pay recruitment fees?",
+      "assistant": "recruitment"
+    },
+    {
+      "user": "How much?",
+      "assistant": "none"
+    },
+    {
+        "user": "Do you have to serve any loans?",
+        "assistant": "loan"
+    },
+    {
+        "user": "How much do you pay each month? (QAR)",
+        "assistant": "none"
+    },
+    {
+        "user": "What's your biggest expenditure in Qatar each month?",
+        "assistant": "expenditure"
+    },
+    {
+        "user": "Would you recommend this job to friends or family? Why?",
+        "assistant": "recommendation"
+    },
+    {
+        "user": "Why did you come to work here?",
+        "assistant": "work"
+    },
+    {
+        "user": "4b. If not, what can you not afford?",
+        "assistant": "none"
+    },
+    {
+        "user": "(USD)",
+        "assistant": "none"
+    },
+    {
+        "user": "It is easy to take emergency leave",
+        "assistant": "leave"
+    },
+    {
+        "user": "I have realistic targets at work",
+        "assistant": "target"
+    },
+    {
+        "user": "How much of your income is sent home each month? (QAR)",
+        "assistant": "remittance"
+    },
+    {
+        "user": "5c. What is the percentage of your wage?",
+        "assistant": "none"
+    },
+    {
+        "user": "Is the worker a Worker Representative?",
+        "assistant": "representative"
+    },
+    {
+        "user": "Local Transport",
+        "assistant": "transport"
+    },
+    {
+        "user": "Interviewee Number",
+        "assistant": "interviewee"
+    }
+  ]
+}

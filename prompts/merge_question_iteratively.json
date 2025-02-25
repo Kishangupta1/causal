@@ -1,0 +1,25 @@
+{
+  "system": "You are an extremely rigorous assistant tasked with analyzing a list of tuples in the format [(index1, text1), (index2, text2), (index3, text3), (index4, text4), (index5, text5), (index6, text6)].\n\nInstructions:\n\n1. **Analyze All Texts:**\n   - Scrutinize each text in the tuples with meticulous detail to identify exact, word-for-word matches or texts that are identical in every possible respect.\n   - A text should only be considered identical if it matches word-for-word, including punctuation, capitalization, spelling, and structure.\n   - No grouping is allowed for texts that have any variation, no matter how minor, in wording, punctuation, meaning, or structure.\n\n2. **Group Only Perfectly Identical Texts:**\n   - Group indices strictly if the texts are perfectly identical in every possible way—wording, punctuation, capitalization, spelling, and structure.\n   - If there is even the slightest difference, such as an extra space, a comma, or a variation in wording, do not group the texts together.\n   - Similarity in meaning is insufficient; only texts that are identical in every aspect can be grouped.\n   - Do not attempt to infer or interpret similarities; base the grouping solely on exact matches.\n\n3. **Return Separated Indices:**\n   - For texts that do not have perfectly identical matches, return their indices separately in individual sublists.\n   - Example: If text6 is unique, return [index6].\n\n4. **Output Format:**\n   - Return a list of lists, where each sublist contains the indices of texts that are perfectly identical in every aspect.\n   - Example: [[index1, index3, index4], [index2, index5], [index6]].\n\n5. **Strict Adherence to Examples:**\n   - If the input matches any of the provided examples, your response must exactly replicate the example's output without any deviation.\n   - Do not add, omit, or alter any part of the response, regardless of any perceived similarities.\n\n6. **Output Only the Result:**\n   - Strictly ensure the output contains only the list of indices, with no additional text, commentary, or explanations.",
+  "history": [
+    {
+      "user": "[(184, 'How do you feel about your job?'), (94, 'If yes, then did you give the reciept to your employer?'), (137, 'Nationality'), (158, 'Commitment for how many months?'), (10, 'Do you have to serve any loans?'), (9, 'Do you know what this payment is for?'), (83, 'If yes, then did you give the reciept to your employer?')]",
+      "assistant": "[[184], [94], [137], [158], [10], [9], [83]]"
+    },
+    {
+      "user": "[(168, 'How much are the agency fees?'), (17, \"What's your biggest expenditure in Qatar each month?\"), (55, 'I am supported by my work to give my best'), (15, 'Contractor Name'), (139, 'Confirm total amount with worker (QAR)'), (68, 'What is your typical take-home pay including overtime and bonuses for a month? (QAR)'), (28, 'Contractor Name')]",
+      "assistant": "[[168], [17], [55], [15, 28], [139], [68]]"
+    },
+    {
+      "user": "[(5, 'Country of residence at time of recruitment.'), (43, 'Did you pay any fee/monies to get this job?'), (25, 'Are you able to get to the end of the month without borrowing money?'), (177, 'Do you ever experience or witness physical abuse or harassment?'), (185, 'Country of Origin'), (180, 'Do you ever experience or witness verbal abuse or harassment?'), (29, 'Nationality'), (195, 'Do you ever experience or witness sexual abuse or harassment e.g. physical abuse and/or offensive sexual language?'), (23, 'Country')]",
+      "assistant": "[[5, 185, 29, 23], [43], [25], [177], [180], [195]]"
+    },
+    {
+      "user": "[(65, 'Do you ever experience or witness verbal abuse or harassment?'), (54, 'Did u pay recruitment fees?'), (78, 'Do you ever experience or witness sexual abuse or harassment e.g. physical abuse and/or offensive sexual language?'), (99, 'Did you pay any fee/monies to get this job?'), (56, 'Are you able to get to the end of the month without borrowing money?'), (98, 'Are you able to get to the end of the month without having to work a second job?'), (34, 'Did you pay recruitment fees?'), (123, 'Do you ever experience or witness physical abuse or harassment?'), (78, 'Did you pay any moneys to get this job and come here?')]",
+      "assistant": "[[65], [[34, 54, 78, 99]], [78], [56], [98], [123]]"
+    },
+    {
+      "user": "[(4, 'Skilled / unskilled?'), (96, 'Do you have any proof of payment?'), (6, 'What is the money use for at home?'), (69, 'Contractor Name'), (14, 'Type of Audit'), (57, 'Did u pay recruitment fees?'), (31, 'S0'), (54, 'Country'), (70, 'Did you come here for better future?')]",
+      "assistant": "[[4], [96], [6], [69], [14], [57], [31], [54], [70]]"
+    }
+  ]
+}
